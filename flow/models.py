@@ -167,7 +167,8 @@ class FLOW(object):
     def fit(self):
         opt = self.opt
         # training routine
-        self.progress_bar = tqdm.tqdm(total=opt.max_iter, disable=(dist.get_rank() != 0))
+        local_rank = 0 if not dist.is_initialized() else dist.get_rank()
+        self.progress_bar = tqdm.tqdm(total=opt.max_iter, disable=(local_rank != 0))
 
         n_iter = 1
         self.progress_bar.update(n_iter)
