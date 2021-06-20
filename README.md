@@ -58,7 +58,8 @@ python train.py \
 
 The pre-trained flow models can be downloaded from:
 * Baidu Disk: https://pan.baidu.com/s/1H2RB-Fc-hS9F8wwb3SWlDQ and rxqg
-* [Dropbox](https://www.dropbox.com/sh/vdsx16p5qe3pua2/AAATyV3iX6xzHpngi6CAeEx3a?dl=0)
+* [Google Drive](https://drive.google.com/drive/folders/17MJLBaDUmUOvoJLhJrSYtgQeh985EiUf?usp=sharing)
+
 Here is some examples generated from celeba datasets.
 ![glow_example](fig/glow_example.jpg)
 
